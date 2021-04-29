@@ -2,6 +2,7 @@
 var pariDispari = prompt('Scegli pari o dispari')
 var numUtente = Number(prompt('Scegli un numero da 1 a 5'))
 
+console.log(pariDispari + ' ' + numUtente);
 //Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
 
 function numCasuale(min, max) {
