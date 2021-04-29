@@ -11,16 +11,21 @@ function numCasuale(min, max) {
 console.log(numCasuale(1, 5));
 //Sommiamo i due numeri Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 
-/* function somma (numUtente, numCasuale){
-    var risultato = numUtente + numCasuale;
+function somma (numUtente, numCasuale){
+ /*    var risultato = numUtente + numCasuale; */
+    if (risultato % 2 == 0){
+        console.log('pari');
+    }else{
+        console.log('dispari');
+    }
     console.log(risultato);
     return risultato;
 }
-somma = (numUtente, numCasuale); */
+somma = (numUtente, numCasuale);
 
-if (numCasuale + numUtente % 2 == 0){
+/* if (numCasuale + numUtente % 2 == 0){
     console.log('pari');
 }else{
     console.log('dispari');
-}
+} */
 //Dichiariamo chi ha vinto.
