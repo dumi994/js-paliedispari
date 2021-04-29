@@ -12,7 +12,7 @@ console.log(numCasuale(1, 5));
 //Sommiamo i due numeri Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 
 function somma (numUtente, numCasuale){
- /*    var risultato = numUtente + numCasuale; */
+    var risultato = numUtente + numCasuale;
     if (risultato % 2 == 0){
         console.log('pari');
     }else{
