@@ -13,28 +13,21 @@ console.log(numCasuale(1, 5));
 
 function somma (numUtente, numCasuale){
     var risultato = numUtente + numCasuale;
-   /*  if (risultato % 2 == 0){
-        console.log('pari');
-    }else{
-        console.log('dispari');
-    } */
-    
-
-    if (numCasuale + numUtente % 2 == 0){
+    if (risultato % 2 == 0){
         console.log('pari');
     }else{
         console.log('dispari');
     }
+    
+
+    /* if (numCasuale + numUtente % 2 == 0){
+        console.log('pari');
+    }else{
+        console.log('dispari');
+    } */
     return risultato;
     console.log(risultato);
 }
-somma = (numUtente, numCasuale);
-/* var pari = 'pari';
-var dispari = 'dispari';
+somma (numUtente, numCasuale(1, 5));
 
-if (numCasuale + numUtente % 2 == 0){
-    console.log('pari');
-}else{
-    console.log('dispari');
-}  */
 //Dichiariamo chi ha vinto.
